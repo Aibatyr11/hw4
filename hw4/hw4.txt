@@ -1,0 +1,13 @@
+1-2.
+1) pip install Django
+2) django-admin startproject project
+3)cd project
+4)python manage.py startapp bboard
+5) python manage.py runserver
+
+3. Создание виртуального окружения
+.\venv\Scripts\activate
+python -m venv venv
+
+4.Заморозка зависимостей
+pip freeze > requirements.txt
